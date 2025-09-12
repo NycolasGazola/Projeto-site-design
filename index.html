@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Natalia Oliveira — Designer de Sobrancelhas</title>
+  <meta name="description" content="Designer de sobrancelhas profissional — design, microblading, limpeza e manutenção. Agende sua sessão.">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="container">
+    <div class="brand">
+      <div class="logo">NO <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#DF9D9B"></div>
+      <div>
+        <div style="font-weight:700">Natalia Oliveira</div>
+        <div style="font-size:13px;color:var(--muted)">Designer de Sobrancelhas</div>
+      </div>
+    </div>
+    <nav>
+      <a href="#servicos">Serviços</a>
+      <a href="#galeria">Galeria</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="hero">
+      <div class="hero-card">
+        <span class="eyebrow">Designer de Sobrancelhas</span>
+        <h1>Realce seu olhar com sobrancelhas perfeitas</h1>
+        <p class="lead">Atendimento personalizado, técnicas modernas (design, henna, microblading) e manutenção profissional. Agende sua avaliação gratuita.</p>
+        <a class="cta" href="#contato">Agendar agora</a>
+
+        <div class="grid-3">
+          <div class="service">
+            <div style="font-size:28px">✨</div>
+            <h3>Design</h3>
+            <p>Modelagem com visagismo para valorizar seu rosto.</p>
+          </div>
+          <div class="service">
+            <div style="font-size:28px"><img src="massagem.png" alt="massagem"></div>
+            <h3>Spá</h3>
+            <p>Relaxamento.</p>
+          </div>
+          <div class="service">
+            <div style="font-size:28px">💧</div>
+            <h3>Limpeza & Manutenção</h3>
+            <p>Retoque e cuidado para manter o formato perfeito.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <img src="sobrancelhas perfeitas.webp" alt="Sobrancelhas perfeitas" />
+        <img src="sobrancelhas perfeitas.webp" alt="henna">
+        <img src="sobrancelhas perfeitas.webp" alt="henna">
+      </div>
+    </section>
+
+    <section id="servicos" class="title">
+      <h2>Serviços & Preços</h2>
+      <div class="muted">Preço aproximado — consulte para orçamento final</div>
+    </section>
+
+    <div class="pricing">
+      <div class="card-price">
+        <h3>Design de Sobrancelhas</h3>
+        <div class="price">R$ 35</div>
+        <p class="muted">Inclui mapeamento e finalização.</p>
+      </div>
+      <div class="card-price">
+        <h3>Spá das Sobrancelhas</h3>
+        <div class="price">R$ 15</div>
+        <p class="muted">Relaxamento.</p>
+      </div>
+      <div class="card-price">
+        <h3>Henna</h3>
+        <div class="price">R$ 45</div>
+        <p class="muted">Pigmentação temporária até 3 semanas.</p>
+      </div>
+    </div>
+
+    <section id="galeria" class="title" style="margin-top:30px">
+      <h2>Galeria</h2>
+      <div class="muted">Antes e depois dos nossos atendimentos</div>
+    </section>
+
+    <div class="gallery" style="margin-top:14px">
+      <img src="antes.jpg" alt="Antes" />
+      <img src="depois.jpg" alt="Depois" />
+      <img src="Spá.jpg" alt="Spá" />
+      <img src="henna.jpg" alt="Henna" />
+    </div>
+
+    <section id="contato" class="title" style="margin-top:28px">
+      <h2>Contato</h2>
+      <div class="muted">Preencha o formulário ou envie mensagem pelo WhatsApp</div>
+    </section>
+
+    <div style="display:grid;grid-template-columns:1fr 380px;gap:18px;margin-top:14px">
+      <div style="background:var(--card);padding:18px;border-radius:12px">
+        <form>
+          <input type="text" placeholder="Seu nome" required />
+          <input type="tel" placeholder="Telefone (WhatsApp)" required />
+          <input type="email" placeholder="Email" />
+          <select>
+            <option>Serviço desejado</option>
+            <option>Design de sobrancelhas</option>
+            <option>Spá das sobrancelhas</option>
+            <option>Henna</option>
+          </select>
+          <textarea placeholder="Mensagem / Disponibilidade"></textarea>
+          <button type="submit" style="background:var(--accent);color:#fff;border:none;font-weight:700">Enviar mensagem</button>
+        </form>
+      </div>
+
+      <aside style="background:var(--card);padding:18px;border-radius:12px;text-align:left">
+        <h3>Informações</h3>
+        <p class="muted">Endereço: Rua Hitler Ribeiro, 322 — Araretama</p>
+        <p class="muted">Cidade: Pindamonhangaba-SP</p>
+        <p class="muted">Telefone: (12) 9 98220-5827</p>
+        <p class="muted">Horário: Conforme agendamento.</p>
+        <div style="margin-top:12px">
+          <a href="#" style="text-decoration:none;font-weight:700;color:var(--accent)">Ver localização</a>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="container" style="padding:18px 20px">
+        <div style="margin-top:6px">© <span id="year"></span> Nycolas Gazola.<a href="https://github.com/NycolasGazola" target="_blank"></a> Todos os direitos reservados.</div>
+      </div>
+    </footer>
+  </main>
+
+  <script>
+    // atualiza o ano automaticamente
+    document.getElementById('year').textContent = new Date().getFullYear();
+    // exemplo simples: evitar envio real do formulário (substitua por integração real se quiser)
+    document.querySelector('form').addEventListener('submit', function(e){
+      e.preventDefault();
+      alert('Obrigado! Recebemos sua mensagem. Entraremos em contato pelo WhatsApp em breve.');
+      this.reset();
+    });
+  </script>
+</body>
+</html>
